@@ -1,0 +1,3 @@
+scoreboard players set $end_fallthrough graveowner 0
+execute if score $end_fallthrough graveowner matches 1 run tellraw @s ["",{"text":"End fallthrough to the Overworld is currently "},{"text":"[Enabled]","color":"green"},{"text":"."}]
+execute if score $end_fallthrough graveowner matches 0 run tellraw @s ["",{"text":"End fallthrough to the Overworld is currently "},{"text":"[Disabled]","color":"red"},{"text":"."}]

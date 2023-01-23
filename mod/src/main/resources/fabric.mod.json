@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mangoplex-smp",
+  "version": "${version}",
+  "name": "MangoPlex-SMP",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "xyz.mangostudio.smp.mod.BootstrapMod"
+    ]
+  },
+  "mixins": [
+    "smp.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraftVersion}",
+    "fabricloader": "${loaderVersion}",
+    "fabric": "*"
+  }
+}

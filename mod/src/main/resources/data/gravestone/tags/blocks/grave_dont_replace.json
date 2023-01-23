@@ -1,0 +1,24 @@
+{
+  "values": [
+    "#minecraft:slabs",
+    "#minecraft:rails",
+    "minecraft:chest",
+    "#minecraft:stairs",
+    "minecraft:ender_chest",
+    "minecraft:trapped_chest",
+    "#minecraft:anvil",
+    "#minecraft:walls",
+    "#minecraft:fences",
+    "minecraft:hopper",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:light_weighted_pressure_plate",
+    "#minecraft:trapdoors",
+    "minecraft:grass_path",
+    "minecraft:stonecutter",
+    "minecraft:grindstone",
+    "minecraft:end_rod",
+    "minecraft:brewing_stand"
+  ]
+}
