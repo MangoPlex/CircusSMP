@@ -27,7 +27,6 @@ public class Launcher {
         new ModUpdater(modDir, minecraftVersion,
                 "alternate-current:latest",
                 "c2me-fabric:latest",
-                "chunky:latest",
                 "ferrite-core:latest",
                 "krypton:latest",
                 "lithium:latest",
