@@ -37,6 +37,8 @@ public class Launcher {
                 "vmp-fabric:latest",
                 "spark:latest",
 
+                "no-chat-reports:latest",
+
                 "terra:latest",
                 "fallingtree:latest",
 

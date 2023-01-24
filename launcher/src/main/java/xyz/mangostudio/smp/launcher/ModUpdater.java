@@ -7,6 +7,9 @@ import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import mjson.Json;
 
@@ -35,10 +38,23 @@ public class ModUpdater {
         }).toList());
     }
 
-    public void update() {
+    public void update() throws Exception {
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
+        CountDownLatch latch = new CountDownLatch(modrinthInfos.size());
+
         for (ModrinthInfo modrinthInfo : modrinthInfos) {
-            updateMod(modrinthInfo);
+            executorService.submit(() -> {
+                try {
+                    updateMod(modrinthInfo);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                } finally {
+                    latch.countDown();
+                }
+            });
         }
+
+        latch.await();
     }
 
     private void updateMod(ModrinthInfo modInfo) {

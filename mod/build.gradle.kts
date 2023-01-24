@@ -4,6 +4,10 @@ plugins {
 
 val minecraftVersion: String by project
 
+loom {
+    splitEnvironmentSourceSets()
+}
+
 dependencies {
     minecraft("com.mojang:minecraft:$minecraftVersion")
     mappings("net.fabricmc:yarn:${property("yarnMappings")}:v2")

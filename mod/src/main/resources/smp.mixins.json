@@ -6,12 +6,14 @@
   "mixins": [
     "EulaReaderMixin",
     "MinecraftServerMixin",
+    "ServerChunkManagerMixin",
     "ServerConfigListMixin",
     "ServerLoginNetworkHandlerMixin",
     "ServerPlayerEntityMixin",
     "ServerPropertiesHandlerMixin",
     "SharedConstantsMixin",
-    "UtilMixin"
+    "UtilMixin",
+    "accessor.ThreadedAnvilChunkStorageAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
