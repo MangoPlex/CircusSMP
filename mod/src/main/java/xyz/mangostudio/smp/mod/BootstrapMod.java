@@ -43,6 +43,8 @@ public class BootstrapMod implements DedicatedServerModInitializer {
         }));
 
         ServerTickEvents.END_SERVER_TICK.register(((server) -> {
+            if (server.getTicks() % 20 != 0) return;
+
             if (server.getPlayerManager().getPlayerList().size() == 0) {
                 try {
                     AtomicInteger chunkUnloadedAmount = new AtomicInteger();
