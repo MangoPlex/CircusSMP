@@ -46,9 +46,7 @@ public class BootstrapMod implements DedicatedServerModInitializer {
             if (server.getPlayerManager().getPlayerList().size() == 0) {
                 try {
                     AtomicInteger chunkUnloadedAmount = new AtomicInteger();
-
-                    Thread.sleep(1000L);
-
+                    
                     for (ServerWorld world : server.getWorlds()) {
                         ((LoadedChunksCache) world).fabric_getLoadedChunks().forEach(chunk -> {
                             if (world.getChunkManager().isChunkLoaded(chunk.getPos().x, chunk.getPos().z)) {
