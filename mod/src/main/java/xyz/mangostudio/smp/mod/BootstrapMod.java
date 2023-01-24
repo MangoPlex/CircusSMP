@@ -62,14 +62,6 @@ public class BootstrapMod implements DedicatedServerModInitializer {
 
                     if (chunkUnloadedAmount.get() > 0) {
                         LOGGER.info(String.format("Unloaded %d chunks", chunkUnloadedAmount.get()));
-
-                        long freeMemory = Runtime.getRuntime().freeMemory();
-                        System.gc();
-                        long flushedMemory;
-
-                        if ((flushedMemory = (Runtime.getRuntime().freeMemory() - freeMemory) / 1024L / 1024L) > 0L) {
-                            LOGGER.info(String.format("%d MB memory freed using Java garbage collector", flushedMemory));
-                        }
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
