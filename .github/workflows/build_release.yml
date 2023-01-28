@@ -25,4 +25,4 @@ jobs:
           context: changelog
           workflow_id: build_release.yml
       - uses: gradle/wrapper-validation-action@v1
-      - run: ./gradlew checkVersion build github --stacktrace -Porg.gradle.parallel.threads=4
+      - run: ./gradlew build github --stacktrace -Porg.gradle.parallel.threads=4

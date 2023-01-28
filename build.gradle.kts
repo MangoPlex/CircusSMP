@@ -32,6 +32,8 @@ sourceSets {
 
 loom {
     serverOnlyMinecraftJar()
+
+    accessWidenerPath.set(file("src/main/resources/smp.accesswidener"))
 }
 
 dependencies {
@@ -41,7 +43,6 @@ dependencies {
     modImplementation("net.fabricmc:fabric-loader:${property("loaderVersion")}")
     modImplementation("net.fabricmc.fabric-api:fabric-api:${property("fabricVersion")}")
 }
-
 
 tasks {
     processResources {
