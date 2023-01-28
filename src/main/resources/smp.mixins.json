@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.mangostudio.smp.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SharedConstantsMixin",
+    "server.MinecraftServerMixin",
+    "server.ServerConfigListMixin",
+    "server.network.ServerLoginNetworkHandlerMixin",
+    "server.network.ServerPlayerEntityMixin",
+    "stat.ServerStatHandlerMixin",
+    "util.UtilMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

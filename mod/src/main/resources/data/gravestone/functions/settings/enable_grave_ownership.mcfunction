@@ -1,3 +1,0 @@
-scoreboard players set $grave_ownership graveowner 1
-execute if score $grave_ownership graveowner matches 1 run tellraw @a ["",{"text":"When grave ownership is on, players can only destroy their own graves. Grave ownership is currently "},{"text":"[Enabled]","color":"green"},{"text":"."}]
-execute if score $grave_ownership graveowner matches 0 run tellraw @a ["",{"text":"When grave ownership is on, players can only destroy their own graves. Grave ownership is currently "},{"text":"[Disabled]","color":"red"},{"text":"."}]

@@ -8,11 +8,7 @@ pluginManagement {
 
     plugins {
         id("fabric-loom") version "1.0-SNAPSHOT"
-        id("com.github.johnrengelman.shadow") version "7.1.2"
     }
 }
 
 rootProject.name = "mangoplex-smp"
-
-include("launcher")
-include("mod")
