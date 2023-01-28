@@ -9,7 +9,7 @@ services:
       # Mods and datapacks
       VANILLATWEAKS_SHARECODE: "dWuZTL,d4Xleu"
       MODRINTH_PROJECTS: "fabric-api,alternate-current,c2me-fabric,ferrite-core,krypton,lithium,memoryleakfix,starlight,spark,no-chat-reports,terra,fallingtree"
-      MODS: "https://github.com/MangoPlex/smp/releases/latest/download/mangoplex-smp-mc${minecraftVersion}.yml"
+      MODS: "https://github.com/MangoPlex/smp/releases/latest/download/mangoplex-smp-mc${minecraftVersion}.jar"
       # Auto-execute RCON commands
       RCON_CMDS_STARTUP: |-
         scoreboard players set in mt.common_chance 2200

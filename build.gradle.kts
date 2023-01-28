@@ -1,5 +1,8 @@
+import org.kohsuke.github.GHRelease
 import org.kohsuke.github.GHReleaseBuilder
 import org.kohsuke.github.GitHub
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 buildscript {
     dependencies {
@@ -73,17 +76,25 @@ tasks {
         }
 
         doLast {
+            val date = LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy.MM.dd"))
+
             val github = GitHub.connectUsingOAuth(ENV["GITHUB_TOKEN"] as String)
             val repository = github.getRepository(ENV["GITHUB_REPOSITORY"])
 
-            val releaseBuilder = GHReleaseBuilder(repository, "latest")
-            releaseBuilder.name("[$project.minecraft_version] Fabric API $project.version")
+            repository.listReleases().forEach {
+                if (it.tagName == date) {
+                    it.delete()
+                }
+            }
+
+            val releaseBuilder = GHReleaseBuilder(repository, date)
+            releaseBuilder.name("MangoPlex SMP ${project.version}")
             releaseBuilder.body(ENV["CHANGELOG"] ?: "No changelog provided")
             releaseBuilder.commitish("main")
 
             val ghRelease = releaseBuilder.create()
             ghRelease.uploadAsset(remapJar.get().archiveFile.get().asFile, "application/java-archive");
-            ghRelease.uploadAsset(buildDir.resolve("build/resources/main/docker-compose.yml"), "application/x-yaml");
+            ghRelease.uploadAsset(buildDir.resolve("resources/main/docker-compose.yml"), "application/x-yaml");
         }
     }
 }
