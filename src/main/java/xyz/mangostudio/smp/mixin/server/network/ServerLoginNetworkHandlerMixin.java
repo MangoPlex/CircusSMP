@@ -1,11 +1,10 @@
 package xyz.mangostudio.smp.mixin.server.network;
 
-import java.util.Arrays;
-
 import org.jetbrains.annotations.NotNull;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
+import xyz.mangostudio.smp.bridge.MinecraftServerBridge;
 
 import net.minecraft.network.packet.c2s.login.LoginHelloC2SPacket;
 import net.minecraft.server.MinecraftServer;
@@ -20,6 +19,6 @@ public class ServerLoginNetworkHandlerMixin {
             )
     )
     private boolean hackyOnlineMode(@NotNull MinecraftServer instance, LoginHelloC2SPacket packet) {
-        return instance.isOnlineMode() && !Arrays.asList(instance.getPlayerManager().getWhitelist().getNames()).contains(packet.name());
+        return instance.isOnlineMode() && !((MinecraftServerBridge) instance).getWhitelistNames().contains(packet.name());
     }
 }

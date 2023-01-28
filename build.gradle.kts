@@ -89,7 +89,7 @@ tasks {
 
             val releaseBuilder = GHReleaseBuilder(repository, date)
             releaseBuilder.name("MangoPlex SMP ${project.version}")
-            releaseBuilder.body(ENV["CHANGELOG"] ?: "No changelog provided")
+            releaseBuilder.body("New version just came out!")
             releaseBuilder.commitish("main")
 
             val ghRelease = releaseBuilder.create()
