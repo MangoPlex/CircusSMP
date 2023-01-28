@@ -15,7 +15,7 @@ jobs:
       options: --user root
     steps:
       - run: apt update && apt install git -y && git --version
-      - run: git config --global --add safe.directory /__w/fabric/fabric
+      - run: git config --global --add safe.directory /__w/smp/smp
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -26,3 +26,5 @@ jobs:
           workflow_id: build_release.yml
       - uses: gradle/wrapper-validation-action@v1
       - run: ./gradlew build github --stacktrace -Porg.gradle.parallel.threads=4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
