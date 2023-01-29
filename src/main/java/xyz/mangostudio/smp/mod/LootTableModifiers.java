@@ -5,16 +5,13 @@ import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
-import net.minecraft.util.Identifier;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 
 public class LootTableModifiers {
-    private static final Identifier FISHERMAN_SEA_TARRAGON = new Identifier("fisher_man", "epic/sea_tarragon");
-
     static void register() {
         LootTableEvents.REPLACE.register(((resourceManager, lootManager, id, original, source) -> {
-            if (FISHERMAN_SEA_TARRAGON.equals(id)) {
+            if (id.getNamespace().equalsIgnoreCase("fisher_man")) {
                 LootPool.Builder poolBuilder = new LootPool.Builder();
 
                 for (LootPool pool : original.pools) {

@@ -17,8 +17,8 @@ services:
       MODS: "https://github.com/MangoPlex/smp/releases/latest/download/mangoplex-smp-mc${minecraftVersion}.jar"
       # Auto-execute RCON commands
       RCON_CMDS_STARTUP: |-
-        scoreboard players set in mt.common_chance 2200
-        scoreboard players set in mt.rare_chance 11000
+        scoreboard players set in mt.common_chance 4000
+        scoreboard players set in mt.rare_chance 12000
         scoreboard players set in mt.epic_chance 36000
         function mt:settings/disable_l
         gamerule disableElytraMovementCheck true
