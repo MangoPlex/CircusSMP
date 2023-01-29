@@ -1,4 +1,3 @@
-import org.kohsuke.github.GHRelease
 import org.kohsuke.github.GHReleaseBuilder
 import org.kohsuke.github.GitHub
 import java.time.LocalDate
