@@ -35,5 +35,7 @@ public class SMPMod implements DedicatedServerModInitializer {
         ServerLifecycleEvents.SERVER_STARTING.register(server -> {
             ((MinecraftServerBridge) server).setWhitelistNames(List.of(properties.getProperty("offline_users", "").split(",")));
         });
+
+        LootTableModifiers.register();
     }
 }
