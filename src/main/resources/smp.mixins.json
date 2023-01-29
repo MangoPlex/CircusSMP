@@ -5,10 +5,15 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "SharedConstantsMixin",
+    "entity.boss.WitherEntityMixin",
+    "entity.boss.dragon.EnderDragonEntityMixin",
+    "entity.boss.dragon.EnderDragonPartMixin",
+    "entity.projectile.WitherSkullEntityMixin",
     "server.MinecraftServerMixin",
     "server.ServerConfigListMixin",
     "server.network.ServerLoginNetworkHandlerMixin",
     "server.network.ServerPlayerEntityMixin",
+    "server.network.ServerPlayNetworkHandlerMixin",
     "stat.ServerStatHandlerMixin",
     "util.UtilMixin"
   ],

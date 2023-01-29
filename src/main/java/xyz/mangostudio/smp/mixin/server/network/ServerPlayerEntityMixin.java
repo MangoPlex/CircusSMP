@@ -19,7 +19,7 @@ public abstract class ServerPlayerEntityMixin {
                     target = "Lnet/minecraft/server/network/ServerPlayerEntity;setWorld(Lnet/minecraft/server/world/ServerWorld;)V"
             )
     )
-    void teleportFix(ServerWorld targetWorld, double x, double y, double z, float yaw, float pitch, CallbackInfo ci) {
+    private void teleportFix(ServerWorld targetWorld, double x, double y, double z, float yaw, float pitch, CallbackInfo ci) {
         ServerPlayerEntity self = (ServerPlayerEntity) (Object) this;
 
         for (StatusEffectInstance statusEffectInstance : self.getStatusEffects()) {
