@@ -9,6 +9,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.boss.WitherEntity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.world.World;
 
@@ -19,10 +20,10 @@ public class WitherEntityMixin extends HostileEntity {
     }
 
     /**
-     * Wither's max health is increased to 2360, armor to 8.0.
+     * Wither's max health is increased to 3600.0, armor to 12.0.
      */
     @Inject(method = "createWitherAttributes", at = @At(value = "RETURN"), cancellable = true)
     private static void modifyWitherAttributes(CallbackInfoReturnable<DefaultAttributeContainer.Builder> cir) {
-        cir.setReturnValue(cir.getReturnValue().add(EntityAttributes.GENERIC_MAX_HEALTH, 2360.0).add(EntityAttributes.GENERIC_ARMOR, 8.0));
+        cir.setReturnValue(cir.getReturnValue().add(EntityAttributes.GENERIC_MAX_HEALTH, 3600).add(EntityAttributes.GENERIC_ARMOR, 12.0));
     }
 }

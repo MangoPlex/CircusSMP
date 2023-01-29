@@ -5,8 +5,10 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "SharedConstantsMixin",
+    "entity.attribute.ClampedEntityAttributeAccessor",
     "entity.boss.WitherEntityMixin",
     "entity.boss.dragon.EnderDragonEntityMixin",
+    "entity.boss.dragon.EnderDragonFightMixin",
     "entity.boss.dragon.EnderDragonPartMixin",
     "entity.projectile.WitherSkullEntityMixin",
     "server.MinecraftServerMixin",

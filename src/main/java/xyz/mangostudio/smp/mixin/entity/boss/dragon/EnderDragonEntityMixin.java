@@ -22,11 +22,11 @@ public class EnderDragonEntityMixin extends MobEntity {
     }
 
     /**
-     * Ender Dragon's max health is increased to 1360.
+     * Ender Dragon's max health is increased to 1360.0, armor to 12.0.
      */
     @Inject(method = "createEnderDragonAttributes", at = @At(value = "RETURN"), cancellable = true)
     private static void modifyMaxHealth(CallbackInfoReturnable<DefaultAttributeContainer.Builder> cir) {
-        cir.setReturnValue(cir.getReturnValue().add(EntityAttributes.GENERIC_MAX_HEALTH, 1360.0));
+        cir.setReturnValue(cir.getReturnValue().add(EntityAttributes.GENERIC_MAX_HEALTH, 1360.0).add(EntityAttributes.GENERIC_ARMOR, 12.0));
     }
 
     /**

@@ -9,12 +9,14 @@ import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import xyz.mangostudio.smp.bridge.MinecraftServerBridge;
+import xyz.mangostudio.smp.mod.patch.AttributeModifiers;
+import xyz.mangostudio.smp.mod.patch.LootTableModifiers;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 
 public class SMPMod implements DedicatedServerModInitializer {
-    private static final Logger LOGGER = LogManager.getLogger("MangoplexSMP");
+    public static final Logger LOGGER = LogManager.getLogger("MangoplexSMP");
 
     @Override
     public void onInitializeServer() {
@@ -36,6 +38,11 @@ public class SMPMod implements DedicatedServerModInitializer {
             ((MinecraftServerBridge) server).setWhitelistNames(List.of(properties.getProperty("offline_users", "").split(",")));
         });
 
+        ServerLifecycleEvents.SERVER_STARTED.register(server -> {
+
+        });
+
         LootTableModifiers.register();
+        AttributeModifiers.register();
     }
 }

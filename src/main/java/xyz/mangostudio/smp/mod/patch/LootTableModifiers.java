@@ -1,4 +1,4 @@
-package xyz.mangostudio.smp.mod;
+package xyz.mangostudio.smp.mod.patch;
 
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
@@ -9,7 +9,7 @@ import net.minecraft.loot.entry.LootPoolEntry;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 
 public class LootTableModifiers {
-    static void register() {
+    public static void register() {
         LootTableEvents.REPLACE.register(((resourceManager, lootManager, id, original, source) -> {
             if (id.getNamespace().equalsIgnoreCase("fisher_man")) {
                 LootPool.Builder poolBuilder = new LootPool.Builder();
