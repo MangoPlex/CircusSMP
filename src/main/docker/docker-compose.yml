@@ -19,7 +19,7 @@ services:
         scoreboard players set in mt.common_chance 2200
         scoreboard players set in mt.rare_chance 11000
         scoreboard players set in mt.epic_chance 36000
-        scoreboard players set in mt.legendary_chance 2147483647
+        function mt:settings/disable_l
         gamerule disableElytraMovementCheck true
         gamerule playersSleepingPercentage 50
       # Server version
