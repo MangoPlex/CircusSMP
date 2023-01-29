@@ -48,5 +48,6 @@ services:
       # Auto-pause
       STOP_SERVER_ANNOUNCE_DELAY: 10
       ENABLE_AUTOPAUSE: true
+      AUTOPAUSE_TIMEOUT_EST: 1200
     volumes:
       - ~/mangoplex-smp/data:/data
