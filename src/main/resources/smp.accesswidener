@@ -1,4 +1,6 @@
-accessWidener	v1	named
+accessWidener	v2	named
 
 accessible method net/minecraft/server/ServerConfigEntry getKey() Ljava/lang/Object;
+accessible field net/minecraft/loot/function/SetNbtLootFunction nbt Lnet/minecraft/nbt/NbtCompound;
+accessible field net/minecraft/loot/entry/LeafEntry functions [Lnet/minecraft/loot/function/LootFunction;
 accessible field net/minecraft/loot/entry/ItemEntry item Lnet/minecraft/item/Item;
