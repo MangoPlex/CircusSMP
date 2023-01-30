@@ -26,7 +26,7 @@ public class EnderDragonEntityMixin extends MobEntity {
      */
     @Inject(method = "createEnderDragonAttributes", at = @At(value = "RETURN"), cancellable = true)
     private static void modifyMaxHealth(CallbackInfoReturnable<DefaultAttributeContainer.Builder> cir) {
-        cir.setReturnValue(cir.getReturnValue().add(EntityAttributes.GENERIC_MAX_HEALTH, 1360.0).add(EntityAttributes.GENERIC_ARMOR, 12.0));
+        cir.setReturnValue(cir.getReturnValue().add(EntityAttributes.GENERIC_MAX_HEALTH, 2360.0).add(EntityAttributes.GENERIC_ARMOR, 12.0));
     }
 
     /**
