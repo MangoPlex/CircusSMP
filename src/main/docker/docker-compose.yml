@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server:java17-openj9
+    image: itzg/minecraft-server:java17-graalvm-ce
     restart: "always"
     ports:
       - "25565:25565"
@@ -43,8 +43,6 @@ services:
       # Server JVM options
       MEMORY: 4G
       ENABLE_ROLLING_LOGS: true
-      TUNE_VIRTUALIZED: true
-      TUNE_NURSERY_SIZES: true
       JAVA_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true"
       # Auto-pause
       STOP_SERVER_ANNOUNCE_DELAY: 10
