@@ -1,6 +1,8 @@
 package xyz.mangostudio.smp.mod.patch;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
@@ -13,18 +15,38 @@ public class LootTableModifiers {
     public static void register() {
         LootTableEvents.REPLACE.register(((resourceManager, lootManager, id, original, source) -> {
             if (id.getNamespace().equalsIgnoreCase("fisher_man") || id.getPath().contains("gameplay/fishing")) {
-                LootPool.Builder poolBuilder = new LootPool.Builder();
+                LootTable.Builder tableBuilder = LootTable.builder()
+                        .type(original.getType())
+                        .apply(List.of(original.functions));
 
-                Arrays.stream(original.pools).flatMap(pool -> Arrays.stream(pool.entries))
-                        .filter(entry -> entry instanceof ItemEntry)
-                        .forEach(entry -> {
-                            Arrays.stream(((ItemEntry) entry).functions).filter(function -> function instanceof SetNbtLootFunction)
-                                    .forEach(lootFunction -> {
-                                        if (((SetNbtLootFunction) lootFunction).nbt.getBoolean("hydra")) poolBuilder.with(entry);
+                Arrays.stream(original.pools).forEach(pool -> {
+                    LootPool.Builder poolBuilder = LootPool.builder();
+                    AtomicBoolean isPoolModified = new AtomicBoolean(false);
+
+                    Arrays.stream(pool.entries)
+                            .forEach(entry -> {
+                                if (entry instanceof ItemEntry)
+                                    Arrays.stream(((ItemEntry) entry).functions).forEach(function -> {
+                                        if (function instanceof SetNbtLootFunction lootFunction)
+                                            if (!lootFunction.nbt.getBoolean("hydra")) poolBuilder.with(entry);
+                                        else poolBuilder.with(entry);
                                     });
-                        });
+                                else poolBuilder.with(entry);
+                            });
 
-                return new LootTable.Builder().pool(poolBuilder.build()).build();
+                    if (!isPoolModified.get()) tableBuilder.pool(pool);
+                    else {
+                        tableBuilder.pool(poolBuilder
+                                .conditionally(List.of(pool.conditions))
+                                .apply(List.of(pool.functions))
+                                .rolls(pool.rolls)
+                                .bonusRolls(pool.bonusRolls)
+                                .build()
+                        );
+                    }
+                });
+
+                return tableBuilder.build();
             }
 
             return original;
