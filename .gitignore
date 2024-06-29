@@ -1,4 +1,6 @@
 run
+*.exe
+*.mrpack
 
 ### Eclipse ###
 .metadata

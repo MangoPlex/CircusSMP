@@ -7,8 +7,8 @@ pluginManagement {
     }
 
     plugins {
-        id("fabric-loom") version "1.1-SNAPSHOT"
+        id("fabric-loom") version "1.7-SNAPSHOT"
     }
 }
 
-rootProject.name = "mangoplex-smp"
+rootProject.name = "mango-smp"

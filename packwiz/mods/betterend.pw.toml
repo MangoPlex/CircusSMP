@@ -1,0 +1,13 @@
+name = "BetterEnd"
+filename = "better-end-4.30.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gc8OEnCC/versions/WAIDCJK8/better-end-4.30.1.jar"
+hash-format = "sha1"
+hash = "4fdd9acdf087601386c97ec72d4362fe8545f11a"
+
+[update]
+[update.modrinth]
+mod-id = "gc8OEnCC"
+version = "WAIDCJK8"

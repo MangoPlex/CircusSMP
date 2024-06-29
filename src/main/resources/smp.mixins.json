@@ -4,7 +4,6 @@
   "package": "xyz.mangostudio.smp.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "SharedConstantsMixin",
     "entity.attribute.ClampedEntityAttributeAccessor",
     "entity.boss.WitherEntityMixin",
     "entity.boss.dragon.EnderDragonEntityMixin",
@@ -13,10 +12,9 @@
     "server.MinecraftServerMixin",
     "server.ServerConfigListMixin",
     "server.network.ServerLoginNetworkHandlerMixin",
-    "server.network.ServerPlayerEntityMixin",
     "server.network.ServerPlayNetworkHandlerMixin",
     "stat.ServerStatHandlerMixin",
-    "util.UtilMixin"
+    "voidtotem.LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

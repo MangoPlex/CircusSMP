@@ -1,0 +1,13 @@
+name = "Winterly"
+filename = "winterly-fabric-0.10.1+1.20.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CEvDfomf/versions/8plvfEPa/winterly-fabric-0.10.1%2B1.20.4.jar"
+hash-format = "sha1"
+hash = "6fa0bef40aa5901873641ecb1f973ba377869b22"
+
+[update]
+[update.modrinth]
+mod-id = "CEvDfomf"
+version = "8plvfEPa"

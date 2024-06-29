@@ -8,13 +8,13 @@ import net.minecraft.server.network.ServerPlayNetworkHandler;
 
 @Mixin(ServerPlayNetworkHandler.class)
 public class ServerPlayNetworkHandlerMixin {
-    @ModifyConstant(method = "onPlayerMove", constant = @Constant(floatValue = 100.0f))
-    private static float modifyMaxPlayerMovement(float constant) {
-        return 360.0f;
-    }
-
-    @ModifyConstant(method = "onVehicleMove", constant = @Constant(doubleValue = 100.0))
-    private static double modifyMaxVehicleMovement(double constant) {
-        return 360.0;
-    }
+//    @ModifyConstant(method = "onPlayerMove", constant = @Constant(floatValue = 100.0f))
+//    private static float modifyMaxPlayerMovement(float constant) {
+//        return 360.0f;
+//    }
+//
+//    @ModifyConstant(method = "onVehicleMove", constant = @Constant(doubleValue = 100.0))
+//    private static double modifyMaxVehicleMovement(double constant) {
+//        return 360.0;
+//    }
 }

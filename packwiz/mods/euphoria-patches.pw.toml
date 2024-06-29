@@ -1,0 +1,18 @@
+name = "Euphoria Patches"
+filename = "EuphoriaPatcher-0.3.3-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4H6sumDB/versions/fzozL8Lu/EuphoriaPatcher-0.3.3-fabric.jar"
+hash-format = "sha1"
+hash = "dc9d9148a3323cbea7c743e8690d00b9b08ad999"
+
+[update]
+[update.modrinth]
+mod-id = "4H6sumDB"
+version = "fzozL8Lu"
+
+[option]
+optional = true
+default = false
+description = "For complementary shader users only"

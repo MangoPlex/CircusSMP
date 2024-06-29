@@ -1,0 +1,13 @@
+name = "MangoPlex SMP"
+author = "JustMango"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f95055e61dbabab99780da7a30d40edd662adf7f50457093fc0dafa7737d2f31"
+
+[versions]
+fabric = "0.15.11"
+minecraft = "1.21"

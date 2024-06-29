@@ -12,9 +12,4 @@ public abstract class EnderDragonPartMixin extends Entity {
     public EnderDragonPartMixin(EntityType<?> type, World world) {
         super(type, world);
     }
-
-    @Override
-    public boolean isImmuneToExplosion() {
-        return true;
-    }
 }

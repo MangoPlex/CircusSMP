@@ -41,12 +41,4 @@ public class EnderDragonEntityMixin extends MobEntity {
     private boolean modifyAttackDamage(Entity instance, DamageSource source, float amount) {
         return instance.damage(source, 15.0f);
     }
-
-    /**
-     * Ender Dragon is immune to explosions in order to prevent the abuse of beds.
-     */
-    @Override
-    public boolean isImmuneToExplosion() {
-        return true;
-    }
 }

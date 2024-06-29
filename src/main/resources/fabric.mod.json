@@ -3,7 +3,7 @@
   "id": "mangoplex-smp",
   "version": "${version}",
   "name": "MangoPlex-SMP",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "server": [
       "xyz.mangostudio.smp.mod.SMPMod"

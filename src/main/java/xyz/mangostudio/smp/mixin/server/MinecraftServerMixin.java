@@ -14,11 +14,6 @@ import net.minecraft.server.world.ServerChunkManager;
 public class MinecraftServerMixin implements MinecraftServerBridge {
     private List<String> whitelistNames;
 
-    @Redirect(method = "prepareStartRegion", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/world/ServerChunkManager;getTotalChunksLoadedCount()I"))
-    public int onPrepareStartReg_redirectChunksLoaded(ServerChunkManager scm) {
-        return 441;
-    }
-
     @Override
     public List<String> getWhitelistNames() {
         return this.whitelistNames;

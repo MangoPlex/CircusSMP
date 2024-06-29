@@ -24,16 +24,8 @@ tasks.withType<JavaCompile>().configureEach {
     options.release.set(17)
 }
 
-sourceSets {
-    main {
-        resources {
-            srcDir("src/main/docker")
-        }
-    }
-}
-
 loom {
-    serverOnlyMinecraftJar()
+    splitMinecraftJar()
 
     accessWidenerPath.set(file("src/main/resources/smp.accesswidener"))
 }
@@ -54,7 +46,7 @@ tasks {
 
         filteringCharset = "UTF-8"
 
-        filesMatching(listOf("fabric.mod.json", "docker-compose.yml")) {
+        filesMatching(listOf("fabric.mod.json")) {
             expand(mapOf(
                 "version" to project.version,
                 "minecraftVersion" to project.version,
@@ -93,7 +85,6 @@ tasks {
 
             val ghRelease = releaseBuilder.create()
             ghRelease.uploadAsset(remapJar.get().archiveFile.get().asFile, "application/java-archive");
-            ghRelease.uploadAsset(buildDir.resolve("resources/main/docker-compose.yml"), "application/x-yaml");
         }
     }
 }
