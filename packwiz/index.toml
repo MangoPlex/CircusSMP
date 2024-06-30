@@ -67,12 +67,12 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1c5bd8c6fc2a71871365d50b37d019ada686751657d35bb42f3c7b1f93391b48"
+hash = "29d7f33e4792af33ee7b4e090280b6d3de5ed4b3d7f8d235c8cac63c5efe383b"
 metafile = true
 
 [[files]]
 file = "mods/bclib.pw.toml"
-hash = "07d5f0526864af57af13f0af1573eabc87d39422566dfabd20b8fff065e87198"
+hash = "dff699ad4e979292225b8e0ee2161fbdd55754461096cddf534a716a5e532531"
 metafile = true
 
 [[files]]
@@ -92,17 +92,17 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "f1ba86e6c56ebd52a5186d290fc979da19cda56ebc4196ee3c3de446efed652c"
+hash = "b66846fce53ac2d9edbe8f2c8d4cc85110c4a4589c0cf62901bf2189ce5a896d"
 metafile = true
 
 [[files]]
 file = "mods/betterend.pw.toml"
-hash = "db4688b24e7b23084f2b14d2a348e147315d6fe173954697fab703ea77d50bf2"
+hash = "0d0890a1b937df7a79fe884fde67cdab81d1ea5c32f1355d9cac89fc4d94d216"
 metafile = true
 
 [[files]]
 file = "mods/betternether.pw.toml"
-hash = "7422ac2f346ccdd88f0dcff09eb70e70da042b55a80c28a411d3b1d1d6b379ce"
+hash = "3d082f20d0f626f408569d928d0e318ae02c90997ac5a56fc70ad9a935a992f9"
 metafile = true
 
 [[files]]
@@ -297,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
-hash = "c905c782c9d072071f34d6e29e7636d24125e0f06281788f4782268dfa476ef4"
+hash = "6113e9ad5b738d95e0f517e5672f1c82b2045204af8be0505c05a4b6a78404b7"
 metafile = true
 
 [[files]]
@@ -407,7 +407,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "35a5bdcb09b0b51a4161a62c0b8ab507cb58a936f036f60410704b291134d1ba"
+hash = "850556d97d0fa30f37bdb7e50a0c085778b409db8649f174005755142199e3a3"
 metafile = true
 
 [[files]]
@@ -692,7 +692,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "7cb74081033769dbc3d65702e4ddcf83e4a8152f7e6122ea50d7e98909c3e549"
+hash = "280cf7ad4ec95bd95eef81a7f327095c5f40e1b8aa45cea91284bfd19395d69e"
 metafile = true
 
 [[files]]
@@ -827,7 +827,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "7bd6b272fc705de71fdca1e7b8054f3e6fa41de2aee26cc8d3892de0d3ec231c"
+hash = "38c448baf49acf9c87b33b2e8c4bc5bf5e53081db3b2b6bc9d818c3818c4a900"
 metafile = true
 
 [[files]]
@@ -837,7 +837,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldweaver.pw.toml"
-hash = "8ea7119de6ab3a85984b17e466fdbfc661b0cd6894315b279bb4c30e6622aa81"
+hash = "bd99375bddd5262956b59643c9725e1d94c10610dc5edeea56ee6be92c543077"
 metafile = true
 
 [[files]]
@@ -857,7 +857,7 @@ metafile = true
 
 [[files]]
 file = "mods/xxl-packets.pw.toml"
-hash = "6f4ce82de5399daf1dd136b34550cbd0b1bee4f68c4118233472af41c7e6d45e"
+hash = "5ace9b6cc83b8acc0bbef9e7d635de8f8664fdfcfcbce32837504ec3a5623af4"
 metafile = true
 
 [[files]]

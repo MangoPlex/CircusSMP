@@ -1,13 +1,13 @@
 name = "XXL Packets"
-filename = "xlpackets-1.0.4-1.20.x.jar"
+filename = "xlpackets-1.0.5-1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SeCuopwJ/versions/9CoQQYvj/xlpackets-1.0.4-1.20.x.jar"
+url = "https://cdn.modrinth.com/data/SeCuopwJ/versions/fllia1S2/xlpackets-1.0.5-1.21.jar"
 hash-format = "sha1"
-hash = "bbba302484c7a5a97d9bdf3038f352468f5fff5f"
+hash = "3a1370a4594f1da0d55a55f09d03e2e05c255e4c"
 
 [update]
 [update.modrinth]
 mod-id = "SeCuopwJ"
-version = "9CoQQYvj"
+version = "fllia1S2"
