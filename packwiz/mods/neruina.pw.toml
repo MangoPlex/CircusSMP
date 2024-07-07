@@ -1,13 +1,13 @@
 name = "Neruina - Ticking Entity Fixer"
-filename = "neruina-fabric-2.0.0-beta.10+1.20.6.jar"
+filename = "Neruina-2.1.0-fabric+1.21.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/1s5x833P/versions/Y8SdXBLm/neruina-fabric-2.0.0-beta.10%2B1.20.6.jar"
+url = "https://cdn.modrinth.com/data/1s5x833P/versions/QwAghAXk/Neruina-2.1.0-fabric%2B1.21.jar"
 hash-format = "sha1"
-hash = "4abd664487ac14d1dd2bb35133ff3b9cadee7ebb"
+hash = "4dcb5cfab4c1a959dadf74247a69c6852e12884e"
 
 [update]
 [update.modrinth]
 mod-id = "1s5x833P"
-version = "Y8SdXBLm"
+version = "QwAghAXk"

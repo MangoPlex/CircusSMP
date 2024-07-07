@@ -1,7 +1,7 @@
-package xyz.mangostudio.smp.mod.patch;
+package xyz.mangostudio.smp.patch;
 
 import xyz.mangostudio.smp.mixin.entity.attribute.ClampedEntityAttributeAccessor;
-import xyz.mangostudio.smp.mod.SMPMod;
+import xyz.mangostudio.smp.SMPMod;
 
 import net.minecraft.entity.attribute.ClampedEntityAttribute;
 import net.minecraft.entity.attribute.EntityAttribute;

@@ -6,7 +6,7 @@
   "environment": "*",
   "entrypoints": {
     "server": [
-      "xyz.mangostudio.smp.mod.SMPMod"
+      "xyz.mangostudio.smp.SMPMod"
     ]
   },
   "accessWidener": "smp.accesswidener",

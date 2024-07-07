@@ -1,10 +1,8 @@
-package xyz.mangostudio.smp.mod.util;
+package xyz.mangostudio.smp.util;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.random.Random;
-import net.minecraft.world.World;
 import org.jetbrains.annotations.NotNull;
 
 public final class BlockPosUtils {

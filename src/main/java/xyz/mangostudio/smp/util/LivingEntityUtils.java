@@ -1,4 +1,4 @@
-package xyz.mangostudio.smp.mod.util;
+package xyz.mangostudio.smp.util;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.math.BlockPos;

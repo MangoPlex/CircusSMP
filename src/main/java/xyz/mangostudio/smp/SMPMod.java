@@ -1,4 +1,4 @@
-package xyz.mangostudio.smp.mod;
+package xyz.mangostudio.smp;
 
 import java.io.FileInputStream;
 import java.nio.file.Files;
@@ -9,7 +9,7 @@ import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import xyz.mangostudio.smp.bridge.MinecraftServerBridge;
-import xyz.mangostudio.smp.mod.patch.AttributeModifiers;
+import xyz.mangostudio.smp.patch.AttributeModifiers;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
