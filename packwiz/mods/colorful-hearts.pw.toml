@@ -1,13 +1,13 @@
 name = "Colorful Hearts"
-filename = "colorfulhearts-fabric-1.21-10.0.0.jar"
+filename = "colorfulhearts-fabric-1.21-10.1.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/wQfMUdZT/versions/YD3cSdvJ/colorfulhearts-fabric-1.21-10.0.0.jar"
+url = "https://cdn.modrinth.com/data/wQfMUdZT/versions/IMAstosK/colorfulhearts-fabric-1.21-10.1.2.jar"
 hash-format = "sha1"
-hash = "067262fb64c83e7034bc37e4648ed30c27d63861"
+hash = "487e28a32495a52e0d153cb00841b091c19d4605"
 
 [update]
 [update.modrinth]
 mod-id = "wQfMUdZT"
-version = "YD3cSdvJ"
+version = "IMAstosK"
