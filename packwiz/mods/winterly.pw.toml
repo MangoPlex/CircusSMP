@@ -1,13 +1,13 @@
 name = "Winterly"
-filename = "winterly-0.11.0+1.21.jar"
+filename = "winterly-0.11.2+1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/CEvDfomf/versions/SGt2iTCP/winterly-0.11.0%2B1.21.jar"
+url = "https://cdn.modrinth.com/data/CEvDfomf/versions/71ZoZ58B/winterly-0.11.2%2B1.21.jar"
 hash-format = "sha1"
-hash = "dd0d4043277f699a3f1fec31d9470009c5fa437e"
+hash = "ff7d4a3f8849f5cc4be252c526aeb83dbe32bb11"
 
 [update]
 [update.modrinth]
 mod-id = "CEvDfomf"
-version = "SGt2iTCP"
+version = "71ZoZ58B"

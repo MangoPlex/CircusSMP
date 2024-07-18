@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.mangostudio.smp.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "top.circussmp.mod.mixin.entity.attribute.ClampedEntityAttributeAccessor",
+    "top.circussmp.mod.mixin.entity.boss.WitherEntityMixin",
+    "top.circussmp.mod.mixin.entity.boss.dragon.EnderDragonEntityMixin",
+    "top.circussmp.mod.mixin.entity.boss.dragon.EnderDragonPartMixin",
+    "top.circussmp.mod.mixin.entity.projectile.WitherSkullEntityMixin",
+    "top.circussmp.mod.mixin.server.MinecraftServerMixin",
+    "top.circussmp.mod.mixin.server.ServerConfigListMixin",
+    "top.circussmp.mod.mixin.server.network.ServerLoginNetworkHandlerMixin",
+    "top.circussmp.mod.mixin.server.network.ServerPlayNetworkHandlerMixin",
+    "top.circussmp.mod.mixin.stat.ServerStatHandlerMixin",
+    "top.circussmp.mod.mixin.voidtotem.LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

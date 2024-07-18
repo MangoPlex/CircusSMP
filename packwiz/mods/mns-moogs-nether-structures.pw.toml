@@ -1,0 +1,13 @@
+name = "MNS - Moog's Nether Structures"
+filename = "mns-1.0.2-1.21.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/nGUXvjTa/versions/EpHLrcVq/mns-1.0.2-1.21.jar"
+hash-format = "sha1"
+hash = "ca1afc28133ede3e749aee51fe4e312a8e53111c"
+
+[update]
+[update.modrinth]
+mod-id = "nGUXvjTa"
+version = "EpHLrcVq"
