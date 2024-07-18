@@ -1,13 +1,13 @@
 name = "Elytra Slot"
-filename = "elytraslot-fabric-8.0.0+1.20.6.jar"
+filename = "elytraslot-fabric-9.0.0+1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/mSQF1NpT/versions/FUfqCuZv/elytraslot-fabric-8.0.0%2B1.20.6.jar"
+url = "https://cdn.modrinth.com/data/mSQF1NpT/versions/mVZwWdVe/elytraslot-fabric-9.0.0%2B1.21.jar"
 hash-format = "sha1"
-hash = "bbc24a6038d4b8c297029ca59b6f1772ff3c4fd9"
+hash = "49a87328decae819ed4aca96da8082b193a0fc3f"
 
 [update]
 [update.modrinth]
 mod-id = "mSQF1NpT"
-version = "FUfqCuZv"
+version = "mVZwWdVe"

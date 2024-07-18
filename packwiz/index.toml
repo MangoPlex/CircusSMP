@@ -146,6 +146,11 @@ hash = "eb60985fc66fe8628d8a58a7bf9a5d25924c3ccf5b0523cdf3eca70066854a7b"
 metafile = true
 
 [[files]]
+file = "mods/bottle-your-xp.pw.toml"
+hash = "f972fde1100444eb594fc0d5a3f2038a6ca86b593d87981e117af22f9c61056b"
+metafile = true
+
+[[files]]
 file = "mods/bountiful.pw.toml"
 hash = "33b5ef4cbbf3d7ada079e8dd307779e076f05c5c12261fc7af2fb32331202f37"
 metafile = true
@@ -231,8 +236,18 @@ hash = "0b11fe6fbaea09d1fb7e41df17e02e3520fe211357313b9010e51b8c9dcdb7ff"
 metafile = true
 
 [[files]]
+file = "mods/creeper-overhaul.pw.toml"
+hash = "f3620beedfbb7e460cc3b69ea5ccb6125cd97c2c1ace4baebc1eecc60fafadbb"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "a487981948d29a0175e7b92bc5cab7fe66af97665f8d1619c655a5dd2bac6e67"
+metafile = true
+
+[[files]]
+file = "mods/ct-overhaul-village.pw.toml"
+hash = "bd4fe22c4c06d01fad7637910766579a690b686c4f5d7d4abc9f8321ec032e58"
 metafile = true
 
 [[files]]
@@ -266,6 +281,66 @@ hash = "c7c626f26d9dd0f65a7127837ee4fb3d4c3421c6d0511fb4dbab2e5c93fbdf12"
 metafile = true
 
 [[files]]
+file = "mods/difficulty.pw.toml"
+hash = "29c774365bdb47e882b3e0d992d46ce4611adfc0f2414fff7a2860c9bfdfd324"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-ancient-city-overhaul.pw.toml"
+hash = "09882d73cf2852e23862b709fd2afd1d6c1dcabca93395a429c2be4dfb498f17"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-desert-temple-replacement.pw.toml"
+hash = "e5e4a581ffb8b92ca42d7ec70111896cc4d624a07035389e7b688b580543e8f5"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-end-castle-standalone.pw.toml"
+hash = "b2fd43c9916eac7aa50889b6cb0d00fc3be92520f3e422f9255b78e878cbba39"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-jungle-temple-replacement.pw.toml"
+hash = "b1521e528f1352f248275013be9c6ec0cacf6d72269da1ce41c9a66e89e2e793"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-nether-fortress-overhaul.pw.toml"
+hash = "db461ccbd305c5d80ce3adbb871e638e0f3f752f700a207f5e3f04dd3409de57"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-ocean-monument-replacement.pw.toml"
+hash = "f42f55099efc26b202c73b02404306aff2dc9e39a22d3c06e9cc69a68adb7334"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-pillager-outpost-overhaul.pw.toml"
+hash = "6bf19e2543772149bdfcdaa2a7db710e9068ef84d2ae45c4237dc0e04fb5cafe"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-stronghold-overhaul.pw.toml"
+hash = "d3324290bcb996c028fe370d8cdf84446cc7b5ce4736ff121fef8f244ba7ac06"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-swamp-hut-overhaul.pw.toml"
+hash = "7db16aee16ae606091697e0b59e764bfdc055621775a1eec2b12d0258a4f0a02"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-woodland-mansion-replacement.pw.toml"
+hash = "f648405d4a3efbb0fb1642aa81b5e3e4bc3078b73dd5c0f81e75636fb7a06e84"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "057d87624996a9ad0d295cf72533fb57d163841f8344f1af4132545443b1fc35"
+metafile = true
+
+[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "625c40f2b2522e8987d4ff8e51642d52fd224055bfacf3fbff4d06811ee1eb74"
 metafile = true
@@ -287,7 +362,7 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-slot.pw.toml"
-hash = "da1be5b70ed69ec82910f4302cc9734c0fce81b613242f2cfea458792e8e8536"
+hash = "d11d549677b417531a9e9782afdff968e1e3de1b5eb9051eb4ec538638ff8dd3"
 metafile = true
 
 [[files]]
@@ -546,6 +621,11 @@ hash = "019e6f258127d947cf0b43227c198365b107e35d4e16e29ee8388986aaf62d77"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "0419bc70645cf26e4831c2e1b25fffca1a2e29748f401d85c7ad6bf34ab9ac55"
+metafile = true
+
+[[files]]
 file = "mods/lmd.pw.toml"
 hash = "828aef169c8a135189580d5833138ffc3af3d70117e3edcf9d0da5f6a099cc94"
 metafile = true
@@ -573,6 +653,11 @@ metafile = true
 [[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "51d318e0a4bc5da935a965860b815a6cb57b6ef0ff046a1c364996ca784b1582"
+metafile = true
+
+[[files]]
+file = "mods/mine-spawners.pw.toml"
+hash = "00425cc2ee64bba14801cfbe4777e6598ff0599bb82fd98b10c83942dea9945e"
 metafile = true
 
 [[files]]
@@ -663,6 +748,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "9e1a7c22abbcff2f88b84af516be7b068f232d14f2a15dd72efe0674e920e069"
+metafile = true
+
+[[files]]
+file = "mods/nyfs-spiders.pw.toml"
+hash = "fd4c866309b4e7b9f7b8bfb1a5d62cad5e8e8782a077a91b3669e255a658a679"
 metafile = true
 
 [[files]]
@@ -791,6 +881,11 @@ hash = "26e29d3e4c214d26dbf7d3f6265b69cf814c5df6c67ca8b714c20a30561817d8"
 metafile = true
 
 [[files]]
+file = "mods/rpgdifficulty.pw.toml"
+hash = "4bcb8eafd1f4588772297fcf4f15d03d42b03c471643904d5ca03ceb27034d76"
+metafile = true
+
+[[files]]
 file = "mods/scorchful.pw.toml"
 hash = "24576f53039a4a173f9bdd2c3b15678e32eb3a3b0483fca02cee3273fa4514c6"
 metafile = true
@@ -892,7 +987,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-bumblezone-fabric.pw.toml"
-hash = "934382ccd5b8bbf772279fa7a07339132f8a0d823194deb1b973d5169b765766"
+hash = "067f97f698d018069bc2973ec2c05173638a5ed3c57768ffc7ca1a7d20d77d68"
 metafile = true
 
 [[files]]

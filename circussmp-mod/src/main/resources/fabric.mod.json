@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "mangoplex-smp",
+  "id": "circus-smp",
   "version": "${version}",
-  "name": "MangoPlex-SMP",
+  "name": "Circus-SMP",
   "environment": "*",
   "entrypoints": {
     "server": [
