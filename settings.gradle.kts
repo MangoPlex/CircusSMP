@@ -11,7 +11,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "mango-smp"
+rootProject.name = "circussmp"
 
 include("circussmp-mod")
 include("circussmp-proxy")

@@ -2,7 +2,7 @@ package top.circussmp.mod;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import top.circussmp.mod.patch.AttributeModifiers;
+import top.circussmp.mod.patch.EntityAttributeModifiers;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 
@@ -11,6 +11,6 @@ public class SMPMod implements DedicatedServerModInitializer {
 
     @Override
     public void onInitializeServer() {
-        AttributeModifiers.register();
+        EntityAttributeModifiers.register();
     }
 }

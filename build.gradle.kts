@@ -7,6 +7,16 @@ subprojects {
         maven("https://repo.papermc.io/repository/maven-public/") {
             name = "PaperMC"
         }
+        exclusiveContent {
+            forRepository {
+                maven("https://api.modrinth.com/maven") {
+                    name = "Modrinth"
+                }
+            }
+            filter {
+                includeGroup("maven.modrinth")
+            }
+        }
     }
 
     tasks.withType<JavaCompile>().configureEach {

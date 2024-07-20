@@ -1,4 +1,4 @@
-package top.circussmp.mod.mixin.server;
+package top.circussmp.mod.mixin.patch;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -13,7 +13,7 @@ import net.minecraft.server.ServerConfigList;
 @Mixin(ServerConfigList.class)
 public class ServerConfigListMixin {
     @Inject(method = "save", at = @At("HEAD"), cancellable = true)
-    private void toggleSaving(CallbackInfo ci) {
+    private void disableFileSaving(CallbackInfo ci) {
         ServerConfigList<?, ?> instance = (ServerConfigList<?, ?>) (Object) this;
 
         if (instance instanceof BannedIpList || instance instanceof BannedPlayerList || instance instanceof OperatorList) {

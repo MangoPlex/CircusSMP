@@ -1,0 +1,13 @@
+name = "Thaumon"
+filename = "thaumon-fabric-2.3.0+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PvssKrgi/versions/boWXhbx9/thaumon-fabric-2.3.0%2B1.21.jar"
+hash-format = "sha1"
+hash = "588af2a02d735bcdb14e52cb093ca0305ce15a94"
+
+[update]
+[update.modrinth]
+mod-id = "PvssKrgi"
+version = "boWXhbx9"
