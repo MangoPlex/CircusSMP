@@ -1,0 +1,13 @@
+name = "Terralith"
+filename = "Terralith_1.21.x_v2.5.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8oi3bsk5/versions/81gyNzd0/Terralith_1.21.x_v2.5.6.jar"
+hash-format = "sha512"
+hash = "3696528f49892c7e7719013ebf46e8af4c2db0924011e67b800262e3aca7728ac116b16689f29990a15f292bf8130955b4c165c118925b0689c8c27cd1f249f0"
+
+[update]
+[update.modrinth]
+mod-id = "8oi3bsk5"
+version = "81gyNzd0"

@@ -1,0 +1,12 @@
+{
+  "inv_toggle": false,
+  "arm_toggle": true,
+  "pot_x": 30,
+  "pot_y": 0,
+  "show_armor": true,
+  "show_main": true,
+  "show_off": true,
+  "show_inv": false,
+  "arm_bars": false,
+  "arm_view": "percentage"
+}

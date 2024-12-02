@@ -1,0 +1,17 @@
+name = "Circus SMP"
+author = "JustMango"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0f17e13653da2e3e8707f021aed749cea66f61f8c76ffb28eb5213a74911f218"
+
+[versions]
+fabric = "0.16.9"
+minecraft = "1.21.1"
+
+[options]
+acceptable-game-versions = ["1.21"]
+datapack-folder = "data"

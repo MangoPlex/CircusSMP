@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.circussmp.mod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "feature.mixed_mode.ServerLoginNetworkHandlerMixin",
+    "patch.quick_move.ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

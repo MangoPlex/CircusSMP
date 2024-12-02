@@ -1,0 +1,13 @@
+name = "AdventureZ"
+filename = "adventurez-1.4.23.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/defK2XM3/versions/Q5NMlMGX/adventurez-1.4.23.jar"
+hash-format = "sha512"
+hash = "b2648dc34303083b09ed1dbe9e37e8cf332fe94d04230f7e298c02514ed850adaa2eeb1f761d179857c1be84390bd2970a811ba07b00b732a3f3d49d524ffd5d"
+
+[update]
+[update.modrinth]
+mod-id = "defK2XM3"
+version = "Q5NMlMGX"

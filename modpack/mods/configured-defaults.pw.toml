@@ -1,0 +1,13 @@
+name = "Configured Defaults"
+filename = "ConfiguredDefaults-v21.1.0-1.21.1-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SISoSFPP/versions/gIZr1SQU/ConfiguredDefaults-v21.1.0-1.21.1-Fabric.jar"
+hash-format = "sha512"
+hash = "a75c9c81452fdb4ff13991f54df162f07465aeacb90c596f1355924c78a6cdbff05d0b37c72075703d718f7122adfaeb8eaae24fa1db969d3ee4ce60fca02594"
+
+[update]
+[update.modrinth]
+mod-id = "SISoSFPP"
+version = "gIZr1SQU"

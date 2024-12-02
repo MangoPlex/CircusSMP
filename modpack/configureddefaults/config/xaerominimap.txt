@@ -1,0 +1,13 @@
+updateNotification:false
+caveMaps:2
+lockNorth:true
+zoom:2
+compassDirectionScale:2
+minimapShape:1
+minimapFrame:2
+minimapFrameColor:6
+compassColor:9
+infoDisplayOrder:coords:overworld_coords:chunk_coords:angles:dimension:biome:weather:light_level:time:real_time:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world:season
+infoDisplay:biome:true:15:-1
+infoDisplay:season:true:15:-1
+module;id=xaerominimap:minimap;active=true;x=0;y=0;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false

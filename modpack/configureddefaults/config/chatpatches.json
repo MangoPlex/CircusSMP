@@ -1,0 +1,9 @@
+{
+  "time": true,
+  "timeDate": "HH:mm",
+  "timeFormat": "$",
+  "timeColor": 65429,
+  "chatMaxMessages": 3600,
+  "chatNameFormat": "$:",
+  "chatNameColor": 16769280
+}

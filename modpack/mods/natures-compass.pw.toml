@@ -1,0 +1,13 @@
+name = "Nature's Compass"
+filename = "NaturesCompass-1.21-2.2.6-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fPetb5Kh/versions/tBmAcdOX/NaturesCompass-1.21-2.2.6-fabric.jar"
+hash-format = "sha512"
+hash = "03475a334c12ab5d8fe3ddb17b0aca1b34f3a190e81a6260a38ada48900949dc83c5284c230d935c90fecf9b6df15f0cb9ec2af998a5f59a5e59c79e6baf667f"
+
+[update]
+[update.modrinth]
+mod-id = "fPetb5Kh"
+version = "tBmAcdOX"

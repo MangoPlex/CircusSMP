@@ -1,0 +1,13 @@
+name = "Nether Depths Upgrade"
+filename = "netherdepthsupgrade-fabric-3.1.8-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vI1QKJro/versions/Ms80KqaO/netherdepthsupgrade-fabric-3.1.8-1.21.jar"
+hash-format = "sha512"
+hash = "2486632b5428629854dbfd1eef834a66ec360e6140b429789e75b4007d0b3f4aa9d1258741727c876d20df970fe6b6c6863685674a660a8069b722a501aa1df9"
+
+[update]
+[update.modrinth]
+mod-id = "vI1QKJro"
+version = "Ms80KqaO"

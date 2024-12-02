@@ -1,0 +1,5 @@
+[XP] Fast Mapping:true
+[XP] Fast Mapping Rate Limit:50.0
+[XP] Waystone Waypoint Set:true
+[XP] Transparent Obsidian Roof:true
+[XP] Prefer Overworld Waypoints:true

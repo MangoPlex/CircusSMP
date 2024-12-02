@@ -1,0 +1,13 @@
+name = "Fish of Thieves"
+filename = "fish_of_thieves-mc1.21.1-v4.0.2-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BzOTnuqM/versions/MWJwdSOe/fish_of_thieves-mc1.21.1-v4.0.2-fabric.jar"
+hash-format = "sha512"
+hash = "5b1e1741fc5ffa1513e0cfb16e51b728af8508a3470d4e8681f785db64cb22b5c36c0c6a76067bbaac1d4078c488ff49b1bb13058c6474bd3f0fb02325b91205"
+
+[update]
+[update.modrinth]
+mod-id = "BzOTnuqM"
+version = "MWJwdSOe"

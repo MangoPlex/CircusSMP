@@ -1,0 +1,13 @@
+name = "Villages & Pillages"
+filename = "villagesandpillages-fabric-mc1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/klXONLDA/versions/J0nqkQaR/villagesandpillages-fabric-mc1.21.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "3476dae12629cb1448da702398d95c584f560b1580ce19e38d5d44685c791b0ed5885e42fd9410dc340dbafc29204e741927de6c0405bdd791345230c1715a25"
+
+[update]
+[update.modrinth]
+mod-id = "klXONLDA"
+version = "J0nqkQaR"

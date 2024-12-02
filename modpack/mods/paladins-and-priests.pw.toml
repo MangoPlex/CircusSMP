@@ -1,0 +1,13 @@
+name = "Paladins & Priests (RPG Series)"
+filename = "paladins-2.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FxXkHaLe/versions/vxPwoQ0X/paladins-2.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "6094da41115e6b7e1fcc840b08a65a323b23f8dbf9dc4bbf82616e76d5ca1e743f182e948820c6401add80ad9e68b84f29b946b54cf5bb553ed22d9822a2d147"
+
+[update]
+[update.modrinth]
+mod-id = "FxXkHaLe"
+version = "vxPwoQ0X"

@@ -1,0 +1,13 @@
+name = "XP Storage"
+filename = "xp_storage-1.6+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4RdRpt7i/versions/J4t7yCCW/xp_storage-1.6%2B1.21.jar"
+hash-format = "sha512"
+hash = "9092e853c1d1916e8c539a0151c933e70c434999caf2bf11441cf9efc9689d6ba03e3b0ead8ff6e78e57083060d17c77768c51e9deac8dc56fe4378a6f1c66bc"
+
+[update]
+[update.modrinth]
+mod-id = "4RdRpt7i"
+version = "J4t7yCCW"

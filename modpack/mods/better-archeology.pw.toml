@@ -1,0 +1,13 @@
+name = "Better Archeology"
+filename = "betterarcheology-1.2.0-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zCh7omyG/versions/WGosJslb/betterarcheology-1.2.0-1.21.jar"
+hash-format = "sha512"
+hash = "5869e83fc426de31c4293a698e485e659c2d31cc80f7aec226e8c3b9119093d310c7e86d2b3e1bcfb49b566f1bca3b01099503b6a3f4fcef813c43443ae9b2e6"
+
+[update]
+[update.modrinth]
+mod-id = "zCh7omyG"
+version = "WGosJslb"

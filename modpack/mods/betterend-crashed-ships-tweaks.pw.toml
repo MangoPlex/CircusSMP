@@ -1,0 +1,13 @@
+name = "BetterEnd Crashed Ships Tweaks"
+filename = "betterend-crashed-ships-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QmTVMKNG/versions/B2344Hnl/betterend-crashed-ships-1.1.0.jar"
+hash-format = "sha512"
+hash = "a3a29b92519551cc29b7851c14e477b341af78d3da7d78e55c1d9a6e9062e6cb98c994116e23b132809aba9b0175896ceb4f4540fad0a162c8c5ef739d2f0ae7"
+
+[update]
+[update.modrinth]
+mod-id = "QmTVMKNG"
+version = "B2344Hnl"

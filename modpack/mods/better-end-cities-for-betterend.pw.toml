@@ -1,0 +1,13 @@
+name = "Better End Cities for BetterEnd"
+filename = "betterendcities-betterend-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DlcfxdlN/versions/WRKoer5D/betterendcities-betterend-1.21.jar"
+hash-format = "sha512"
+hash = "0570f5f646f6a1c0d69c93bf5784188fef901f264d397e0e9902793179bece87aff76d1c29f3b47d6873da407cdb5ae41fe6061717794d9a64369a6dcc90d7e1"
+
+[update]
+[update.modrinth]
+mod-id = "DlcfxdlN"
+version = "WRKoer5D"

@@ -1,0 +1,13 @@
+name = "More Totems of Undying"
+filename = "MoreTotems-fabric-1.21-2.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xt0pMhSq/versions/VXOJ1hrh/MoreTotems-fabric-1.21-2.20.1.jar"
+hash-format = "sha512"
+hash = "45f43b0ba64e97f5fc88aeb9035816b28956ce2505ab7c46a5561335726bd71bcb74c489d2bba64b75e22e460639b06b35c38bb26c66bf7513dcf8854ca3817f"
+
+[update]
+[update.modrinth]
+mod-id = "Xt0pMhSq"
+version = "VXOJ1hrh"

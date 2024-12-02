@@ -1,0 +1,13 @@
+name = "Snowy Spirit"
+filename = "snowyspirit-1.21.1-3.0.15-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UiFDlI7w/versions/pyvbeMNW/snowyspirit-1.21.1-3.0.15-fabric.jar"
+hash-format = "sha512"
+hash = "1bab37d57e9f8c68d19def03ead1082277929a9ef02fdf12ba8908c70fac184def24a033700a4032d0d4dea5948f1248479e3af96a7f13c16115ebd511f437d7"
+
+[update]
+[update.modrinth]
+mod-id = "UiFDlI7w"
+version = "pyvbeMNW"

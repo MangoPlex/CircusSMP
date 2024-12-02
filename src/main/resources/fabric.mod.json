@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "circus-smp",
+  "version": "${version}",
+  "name": "Circus-SMP",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.circussmp.mod.CircusSMP"
+    ]
+  },
+  "accessWidener": "circussmp.accesswidener",
+  "mixins": [
+    "circussmp.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraftVersion}",
+    "fabricloader": "${fabricLoaderVersion}",
+    "fabric": "*"
+  }
+}

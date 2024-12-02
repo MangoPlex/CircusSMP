@@ -1,0 +1,13 @@
+name = "End's Delight"
+filename = "ends_delight-refabricated-1.21.1-2.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yHN0njMr/versions/vdrdGBnA/ends_delight-refabricated-1.21.1-2.5.jar"
+hash-format = "sha512"
+hash = "ee6b09b455bcfeb9da18ff28d84aa9fa81d839239e76a18d397def0434f02f4628f1b12d177f37581bf0f1505f6c3b9eee5e3ffda02a2d40e56e01909708d486"
+
+[update]
+[update.modrinth]
+mod-id = "yHN0njMr"
+version = "vdrdGBnA"

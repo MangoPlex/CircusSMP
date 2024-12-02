@@ -1,0 +1,13 @@
+name = "MES - Moog's End Structures"
+filename = "mes-1.3.3-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r4PuRGfV/versions/NTIE4tE4/mes-1.3.3-1.21.jar"
+hash-format = "sha512"
+hash = "2ef65ef888bf39c0f17b3bed55ea6084d77a4fe1cce3251511f6d2393c24a3bc581419523e19937ef2a1b0c6af4e05a91f82fe3702cbbd9c55579f41651dba35"
+
+[update]
+[update.modrinth]
+mod-id = "r4PuRGfV"
+version = "NTIE4tE4"
