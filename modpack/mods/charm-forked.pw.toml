@@ -1,13 +1,13 @@
 name = "Charm Forked"
-filename = "charm-fabric-1.21.1-7.0.36-forked.jar"
+filename = "charm-fabric-1.21.1-7.0.38-forked.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lz0ymQav/versions/cr9guTa5/charm-fabric-1.21.1-7.0.36-forked.jar"
+url = "https://cdn.modrinth.com/data/lz0ymQav/versions/gfvKhcPE/charm-fabric-1.21.1-7.0.38-forked.jar"
 hash-format = "sha512"
-hash = "73bcac67a1975be8e06b357496c53b3364dd92ddc23663419e4cf468d71a4fc08de484af3a23efb0c7d30a8a5d01b1a75c1bcbcadcfb4be01f3d9646b0875003"
+hash = "3b6890992bc60dc3d10c1350c2d6763119dd79e7fe424d7e25ca2b19a1265eb6287ad69327b3ed6b3ad5ec379e8f08b862cbe39f34c6481c7f22ac40f7bcec5c"
 
 [update]
 [update.modrinth]
 mod-id = "lz0ymQav"
-version = "cr9guTa5"
+version = "gfvKhcPE"

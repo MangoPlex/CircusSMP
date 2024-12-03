@@ -22,6 +22,7 @@
 | [Nature's Compass](https://modrinth.com/mod/natures-compass)                     | [MattCzyr](https://github.com/MattCzyr)                    |    Both     |
 | [Paladins & Priests (RPG Series)](https://modrinth.com/mod/paladins-and-priests) | [ZsoltMolnarrr](https://github.com/ZsoltMolnarrr)          |    Both     |
 | [Rogues & Warriors (RPG Series)](https://modrinth.com/mod/rogues-and-warriors)   | [ZsoltMolnarrr](https://github.com/ZsoltMolnarrr)          |    Both     |
+| [TieredZ](https://modrinth.com/mod/tieredz)                                      | [Globox1997](https://github.com/Globox1997)                |    Both     |
 | [Wizards (RPG Series)](https://modrinth.com/mod/wizards)                         | [ZsoltMolnarrr](https://github.com/ZsoltMolnarrr)          |    Both     |
 
 ### Adventures
@@ -191,10 +192,11 @@
 | [Equipment Compare](https://modrinth.com/mod/equipment-compare)                                         | [AHilyard](https://github.com/AHilyard)                                |   Client    |
 | [Fullstack Watchdog](https://modrinth.com/mod/fullstack-watchdog)                                       | [TelepathicGrunt](https://github.com/TelepathicGrunt)                  |   Server    |
 | [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge)                      | [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects) |   Client    |
+| [Jade](https://modrinth.com/mod/jade)                                                                   | [Snownee](https://github.com/Snownee)                                  |   Client    |
+| [Jade Addons (Fabric)](https://modrinth.com/mod/jade-addons-fabric)                                     | [Snownee](https://github.com/Snownee)                                  |   Client    |
 | [Just Enough Breeding (JEBr)](https://modrinth.com/mod/justenoughbreeding)                              | [Christofmeg](https://github.com/Christofmeg)                          |   Client    |
 | [Just Enough Effect Descriptions (JEED)](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) | [MehVahdJukaar](https://github.com/MehVahdJukaar)                      |   Client    |
 | [Just Enough Items](https://modrinth.com/mod/jei)                                                       | [mezz](https://github.com/mezz)                                        |   Client    |
-| [Just Enough Resources (JER)](https://modrinth.com/mod/just-enough-resources-jer)                       | [way2muchnoise](https://github.com/way2muchnoise)                      |   Client    |
 | [KleeSlabs](https://modrinth.com/mod/kleeslabs)                                                         | [TwelveIterationMods](https://github.com/TwelveIterationMods)          |   Server    |
 | [Leave My Bars Alone](https://modrinth.com/mod/leave-my-bars-alone)                                     | [Fuzss](https://github.com/Fuzss)                                      |   Client    |
 | [Log Begone](https://modrinth.com/mod/log-begone)                                                       | [AzureDoom](https://github.com/AzureDoom)                              |    Both     |
@@ -208,6 +210,7 @@
 | [Polymorph](https://modrinth.com/mod/polymorph)                                                         | [illusivesoulworks](https://github.com/illusivesoulworks)              |    Both     |
 | [Polytone](https://modrinth.com/mod/polytone)                                                           | [MehVahdJukaar](https://github.com/MehVahdJukaar)                      |   Client    |
 | [StackDeobfuscator](https://modrinth.com/mod/stackdeobf)                                                | [booky10](https://github.com/booky10)                                  |    Both     |
+| [Unsafe World Random Access Detector](https://modrinth.com/mod/uwrad)                                   | [RelativityMC](https://github.com/RelativityMC)                        |    Both     |
 | [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)                                              | [thexaero](https://modrinth.com/user/thexaero)                         |   Client    |
 | [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)                                          | [thexaero](https://modrinth.com/user/thexaero)                         |   Client    |
 | [XaeroPlus](https://modrinth.com/mod/xaeroplus)                                                         | [rfresh2](https://github.com/rfresh2)                                  |   Client    |
@@ -217,22 +220,14 @@
 ## Pretty
 | Mod Name                                                                            | Developer                                               | Environment |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------|:-----------:|
-| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)                             | [tr7zw](https://github.com/tr7zw)                       |   Client    |
 | [Animatica](https://modrinth.com/mod/animatica)                                     | [FoundationGames](https://github.com/FoundationGames)   |   Client    |
 | [Axolotl Bucket Fix](https://modrinth.com/mod/axolotl-bucket-fix)                   | [coldlavalamp](https://modrinth.com/user/coldlavalamp)  |   Client    |
 | [Better Advancements](https://modrinth.com/mod/better-advancements)                 | [way2muchnoise](https://github.com/way2muchnoise)       |   Client    |
 | [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)                       | [Lortseam](https://github.com/Lortseam)                 |   Client    |
 | [Better Statistics Screen](https://modrinth.com/mod/better-stats)                   | [TheCSDev](https://github.com/TheCSDev)                 |   Client    |
 | [Better Third Person](https://modrinth.com/mod/better-third-person)                 | [socolio](https://modrinth.com/user/socolio)            |   Client    |
-| [Blur+](https://modrinth.com/mod/blur-plus)                                         | [Motschen](https://github.com/Motschen)                 |   Client    |
-| [Bobby](https://modrinth.com/mod/bobby)                                             | [Jonas Herzig](https://github.com/Johni0702)            |   Client    |
 | [CIT Reswn](https://modrinth.com/mod/cit-resewn)                                    | [SHsuperCM](https://github.com/SHsuperCM)               |   Client    |
-| [Chat Animation](https://modrinth.com/mod/chatanimation)                            | [Ezzenix](https://github.com/Ezzenix)                   |   Client    |
-| [Chat Heads](https://modrinth.com/mod/chat-heads)                                   | [dzwdz](https://github.com/dzwdz)                       |   Client    |
 | [Colorful Hearts](https://modrinth.com/mod/colorful-hearts)                         | [Terrails](https://github.com/Terrails)                 |   Client    |
-| [Continuity](https://modrinth.com/mod/continuity)                                   | [PepperCode1](https://github.com/PepperCode1)           |   Client    |
-| [Eating Animation](https://modrinth.com/mod/eating-animation)                       | [Theoness1](https://github.com/Theoness1)               |   Client    |
-| [Euphoria Patches](https://modrinth.com/mod/euphoria-patches)                       | [EuphoriaPatches](https://github.com/EuphoriaPatches)   |   Client    |
 | [Fabrishot](https://modrinth.com/mod/fabrishot)                                     | [ramidzkh](https://github.com/ramidzkh)                 |   Client    |
 | [Falling Leaves](https://modrinth.com/mod/fallingleaves)                            | [RandomMcSomethin](https://github.com/RandomMcSomethin) |   Client    |
 | [First-person Model](https://modrinth.com/mod/first-person-model)                   | [tr7zw](https://github.com/tr7zw)                       |   Client    |
@@ -241,13 +236,25 @@
 | [Iris/Oculus & GeckoLib Compat](https://modrinth.com/mod/geckoanimfix)              | [nvb-uy](https://github.com/nvb-uy)                     |   Client    |
 | [Item Borders](https://modrinth.com/mod/item-borders)                               | [AHilyard](https://github.com/AHilyard)                 |   Client    |
 | [Legendary Tooltips](https://modrinth.com/mod/legendary-tooltips)                   | [AHilyard](https://github.com/AHilyard)                 |   Client    |
-| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)             | [tr7zw](https://github.com/tr7zw)                       |   Client    |
 | [OptiGUI](https://modrinth.com/mod/optigui)                                         | [opekope2](https://github.com/opekope2)                 |   Client    |
 | [Particle Core](https://modrinth.com/mod/particle-core)                             | [fzzyhmstrs](https://github.com/fzzyhmstrs)             |   Client    |
 | [Puzzle](https://modrinth.com/mod/puzzle)                                           | [PuzzleMC](https://github.com/PuzzleMC)                 |   Client    |
 | [Resource Pack Overrides](https://modrinth.com/mod/resource-pack-overrides)         | [Fuzss](https://github.com/Fuzss)                       |   Client    |
 | [Sodium Dynamic Lights](https://modrinth.com/mod/sodium-dynamic-lights)             | [txnimc](https://github.com/txnimc)                     |   Client    |
 | [SuperBetterGrass](https://www.curseforge.com/minecraft/mc-mods/super-better-grass) | [dima-dencep](https://github.com/dima-dencep)           |   Client    |
+
+## Pretty (Optional)
+| Mod Name                                                                            | Developer                                               | Environment |
+|-------------------------------------------------------------------------------------|---------------------------------------------------------|:-----------:|
+| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)                             | [tr7zw](https://github.com/tr7zw)                       |   Client    |
+| [Blur+](https://modrinth.com/mod/blur-plus)                                         | [Motschen](https://github.com/Motschen)                 |   Client    |
+| [Bobby](https://modrinth.com/mod/bobby)                                             | [Jonas Herzig](https://github.com/Johni0702)            |   Client    |
+| [Chat Animation](https://modrinth.com/mod/chatanimation)                            | [Ezzenix](https://github.com/Ezzenix)                   |   Client    |
+| [Chat Heads](https://modrinth.com/mod/chat-heads)                                   | [dzwdz](https://github.com/dzwdz)                       |   Client    |
+| [Continuity](https://modrinth.com/mod/continuity)                                   | [PepperCode1](https://github.com/PepperCode1)           |   Client    |
+| [Eating Animation](https://modrinth.com/mod/eating-animation)                       | [Theoness1](https://github.com/Theoness1)               |   Client    |
+| [Euphoria Patches](https://modrinth.com/mod/euphoria-patches)                       | [EuphoriaPatches](https://github.com/EuphoriaPatches)   |   Client    |
+| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)             | [tr7zw](https://github.com/tr7zw)                       |   Client    |
 | [Visuality](https://modrinth.com/mod/visuality)                                     | [PinkGoosik](https://github.com/PinkGoosik)             |   Client    |
 | [Wavey Capes](https://modrinth.com/mod/wavey-capes)                                 | [tr7zw](https://github.com/tr7zw)                       |   Client    |
 
@@ -361,11 +368,13 @@
 ### Game Mechanics
 | Mod Name                                                                    | Developer                                             | Environment |
 |-----------------------------------------------------------------------------|-------------------------------------------------------|:-----------:|
+| [AutoTag](https://modrinth.com/mod/autotag)                                 | [apace100](https://github.com/apace100)               |    Both     |
 | [AzureLib Armor](https://modrinth.com/mod/azurelib-armore)                  | [AzureDoom](https://github.com/AzureDoom)             |    Both     |
 | [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api) | [Ladysnake](https://github.com/Ladysnake)             |   Server    |
 | [Formations (Structure Library)](https://modrinth.com/mod/formations)       | [SuperMartijn642](https://github.com/SuperMartijn642) |   Server    |
 | [Framework](https://www.curseforge.com/minecraft/mc-mods/framework)         | [MrCrayfish](https://github.com/MrCrayfish)           |    Both     |
 | [Geckolib](https://modrinth.com/mod/geckolib)                               | [bernie-g](https://github.com/bernie-g)               |   Client    |
+| [LibZ](https://modrinth.com/mod/libz)                                       | [Globox1997](https://github.com/Globox1997)           |    Both     |
 | [playerAnimator](https://modrinth.com/mod/playeranimator)                   | [KosmX](https://github.com/KosmX)                     |    Both     |
 | [Ranged Weapon API](https://modrinth.com/mod/ranged-weapon-api)             | [ZsoltMolnarrr](https://github.com/ZsoltMolnarrr)     |    Both     |
 | [Runes](https://modrinth.com/mod/runes)                                     | [ZsoltMolnarrr](https://github.com/ZsoltMolnarrr)     |    Both     |

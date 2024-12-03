@@ -211,6 +211,11 @@ hash = "b2fcaabaf070bc3af99ddcbbf3d93136da87ae09538f2ae9c5ada652b170f8b6"
 metafile = true
 
 [[files]]
+file = "mods/autotag.pw.toml"
+hash = "a225404286ee9479f97a8545c96dca0c8e78a1aff1f8546d55915373196a81c0"
+metafile = true
+
+[[files]]
 file = "mods/axolotl-bucket-fix.pw.toml"
 hash = "16f7d6b8dae81a9dc14f9b5ebea7f4e6cc780cb86416a2cbe05e7d6f2c19e7b0"
 metafile = true
@@ -272,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-end-cities-for-betterend.pw.toml"
-hash = "77817ee96d3142b5460f7f31c1b6aa5f72488b78f6710850ad3270b110d03dfb"
+hash = "c45c868d7e87adcf82845cbae6bed0fd7d83a56df365f38262e6d322e5596d08"
 metafile = true
 
 [[files]]
@@ -347,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "mods/charm-forked.pw.toml"
-hash = "7896337fa3f6b4b812290c7a92c80f154f46831f3c4cbe81d03a3c6690bc49cf"
+hash = "4d2f083c0a5c170281c76db2a81b5809cd2e99d87252b40de49bee3910c00a8e"
 metafile = true
 
 [[files]]
@@ -617,7 +622,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "5edd45af7eccd8a626f72fa148a680dc2640c081bdc73971b17652c92b92780b"
+hash = "3d0bf4d56ea941f856200934fdc2fb4952fe513d469f47bdb5fc586f99f16097"
 metafile = true
 
 [[files]]
@@ -647,7 +652,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "77c35043d1e5dbeba210c69ef7aa15dd47ab978e2e27ee3e37ad8838a0c08d80"
+hash = "8945ea290647fec8b91c24bd81821ee1d73d84a968d23260dbee24ceb951db4d"
 metafile = true
 
 [[files]]
@@ -657,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "f90d8861943cf1f0bede4e9db3b05fe399a21a945ac2df1c46960065be0d19f6"
+hash = "f5f322baef8a064114ec2533eda3767d57b1fd34cb2bcaaaf66ca544bdae8092"
 metafile = true
 
 [[files]]
@@ -812,7 +817,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "ef19c1c85edcb9a19dc784c264497f6191579942b63e6343daaf6c9cdd9a3b78"
+hash = "12ccc252376279689c9f3073f55bb8685ccd1c5f0c435b96c89e71d1b4396c72"
 metafile = true
 
 [[files]]
@@ -823,6 +828,11 @@ metafile = true
 [[files]]
 file = "mods/items-displayed.pw.toml"
 hash = "58a1e0c4dcd2e01e9da4ba57086394eaa3a6ec38953929a05dbff58c8cacec5b"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons-fabric.pw.toml"
+hash = "67d0b675913c729a030e9f37763320f07c263250fc64f2ee304fcabd17c79a49"
 metafile = true
 
 [[files]]
@@ -848,11 +858,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
 hash = "7f44ecf39d95821b89865d4f789aa6d780d9d788bef82048df7bc1dec1901a56"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
-hash = "0d0641e43df2fe941068aea17f71ee5e57439704523d965716836d17c4dd955f"
 metafile = true
 
 [[files]]
@@ -898,6 +903,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "b41a9d602a2885f672ef02b1426b4d65c17fd34229f40ab265d16e8b5ebc6894"
+metafile = true
+
+[[files]]
+file = "mods/libz.pw.toml"
+hash = "5dc350204e4d96aeda005a82b36e6e537ae24f2428da524f9dab8bfb3f49d2f2"
 metafile = true
 
 [[files]]
@@ -982,7 +992,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "daecd6a5f53092b68918546c0773592d94f569697a9d827be371d9464f655f18"
+hash = "74d518f70901bc658882ed102b0037525ee4d1a4e7143e5a26bcec906b1f04c0"
 metafile = true
 
 [[files]]
@@ -1232,7 +1242,7 @@ metafile = true
 
 [[files]]
 file = "mods/rpgdifficulty.pw.toml"
-hash = "2f41b612dca4f9da9f2d39e925d94ac0b5a2f1d1aafd6ce9c10b5022ddbd6dba"
+hash = "60411be867b9f3e387dee3333b853a13bb347b3a1596609903bcdf503f79e302"
 metafile = true
 
 [[files]]
@@ -1307,7 +1317,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "11e2d2257d15509f1acffb9945c0a85f35ddffbf6877b8ab8ff21414f0f3caff"
+hash = "6f3622bd4a52be2851d1e90e9c4a352a7cdb54fae8acb069aa0dd54e3704a324"
 metafile = true
 
 [[files]]
@@ -1426,6 +1436,11 @@ hash = "e77fe4473df0685a27bdc27f9a50c0dced4d298a2765301c2b1f0b11e078a887"
 metafile = true
 
 [[files]]
+file = "mods/tieredz.pw.toml"
+hash = "3338f8b5ffc08dbb4080ca9dcc3e94ba768b53053f68802f83161a343436c4a3"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "ca292c61887f9af9e1ca1d06b5dac560b5249c22f2f3e2b5fc532fe090026876"
 metafile = true
@@ -1452,7 +1467,12 @@ metafile = true
 
 [[files]]
 file = "mods/universal-sawmill.pw.toml"
-hash = "7b723adbdf3e8651e0d1963e9d7b9b5789d1771518547cacf0a2e3ee6acd7700"
+hash = "619833fd420c46df0cfce21a5f8869908f373c4b6af18fbc2448a33e0f7b33ee"
+metafile = true
+
+[[files]]
+file = "mods/uwrad.pw.toml"
+hash = "8e105f55e493d5a1e82d30478f48221ee71e12ef22547515929ad522a1a8e303"
 metafile = true
 
 [[files]]
