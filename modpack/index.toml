@@ -542,7 +542,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "6c697c8b7205ea2be0e04567b42e64f120ccda136930a99c059f80e15ed51ea7"
+hash = "de3c6b57292ba33f190ac6e31b23c3611f3376c5c2a4d5f4e79cd2ccdcb11471"
 metafile = true
 
 [[files]]
@@ -662,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "f5f322baef8a064114ec2533eda3767d57b1fd34cb2bcaaaf66ca544bdae8092"
+hash = "53497d68fdc0e96dea03f3fb3d916866f97bb6d11ad3834146cba11e52352322"
 metafile = true
 
 [[files]]
@@ -797,7 +797,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "d9d52cb38be989efc4c99d47cb9b6b0eee0b86679b29be6135c5fdb8ecbfbd26"
+hash = "88a820c55f782886fbb3d063b1db33d89c924012b20554cd5aec3d27f3ce1819"
 metafile = true
 
 [[files]]
@@ -917,12 +917,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "680f4d24e4ec78ed0ebaa0d71b6b721a7c2f86bc68de74c9f7573a670f93dcaa"
+hash = "9063468d0321798591d5e83044d7e841538b0a6ce8e38a78d415a2461708f45f"
 metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "9c168ce044d13209c90e113778b28679838683adab4c3c031001e9d90d279b4c"
+hash = "2cf6c5a30d08aab1c1c1b3a93d8054e4e64c4a277f5c9054d65779f01d399006"
 metafile = true
 
 [[files]]
@@ -992,7 +992,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "74d518f70901bc658882ed102b0037525ee4d1a4e7143e5a26bcec906b1f04c0"
+hash = "807ab74fed47c0db8ef5523a0f1f83d2a4de397033b974959d8f9cb5265b35d6"
 metafile = true
 
 [[files]]
@@ -1317,7 +1317,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "6f3622bd4a52be2851d1e90e9c4a352a7cdb54fae8acb069aa0dd54e3704a324"
+hash = "b5fa54d30435d38adbbb1918f59a30836783f4cc5fdd55388b80006ceabf3afe"
 metafile = true
 
 [[files]]
