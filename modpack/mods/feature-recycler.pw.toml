@@ -1,0 +1,13 @@
+name = "Feature Recycler"
+filename = "Feature-Recycler-fabric-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IAzu52kG/versions/J1CFeCPN/Feature-Recycler-fabric-2.0.0.jar"
+hash-format = "sha512"
+hash = "37280989cddda4f51bd9829e733882db0323a98680e354276ba899e1d69c8e80e77fd869a64d34e55f79825b1570e11338f3893b969a3cf4be203aa313994e17"
+
+[update]
+[update.modrinth]
+mod-id = "IAzu52kG"
+version = "J1CFeCPN"

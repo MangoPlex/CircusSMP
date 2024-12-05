@@ -1,0 +1,13 @@
+name = "Lavender"
+filename = "lavender-0.1.14+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/D5h9NKNI/versions/cAWHE1fJ/lavender-0.1.14%2B1.21.jar"
+hash-format = "sha512"
+hash = "e7c636f76724b5e86e72555d3f69eb6caed7bf37683374340aabbe9c08d457cefc0d2137ea572450d62b84b802e21c664af1c431dd0aaece4799be50628b2588"
+
+[update]
+[update.modrinth]
+mod-id = "D5h9NKNI"
+version = "cAWHE1fJ"

@@ -1,0 +1,13 @@
+name = "Living Things"
+filename = "livingthings-fabric-1.21.1-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UKDLi1GJ/versions/Cjktz3Pk/livingthings-fabric-1.21.1-2.2.0.jar"
+hash-format = "sha512"
+hash = "9270f3780c11c211d54d9e24856bd2d9d6fbb94106b971e1a6885e674d427378a07a533d00462e8efbd15249ed64872ac010aa946db3e1451fda5fb210cd67d9"
+
+[update]
+[update.modrinth]
+mod-id = "UKDLi1GJ"
+version = "Cjktz3Pk"

@@ -1,0 +1,13 @@
+name = "EpheroLib"
+filename = "EpheroLib-FABRIC-1.2.0-1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8df62541af76c9d313558bcd01d1781a71abd6d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5439828
+project-id = 885449

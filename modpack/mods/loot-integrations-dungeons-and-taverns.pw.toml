@@ -1,0 +1,13 @@
+name = "Loot Integrations: Dungeons and Taverns"
+filename = "lootintegrations_dnt-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "29e8cade227e11cac6636de8cffc78481a7bd34f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5902866
+project-id = 1139414

@@ -1,0 +1,13 @@
+name = "Loot Integrations: When Dungeons Arise & Co"
+filename = "lootintegration_wda-1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d2c7b24b37ad3f7b1853a69652eda66b2281bcf2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5912078
+project-id = 1142880
